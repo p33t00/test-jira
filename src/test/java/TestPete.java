@@ -6,6 +6,6 @@ public class TestPete {
     public void testIncBy2() {
         Pete p = new Pete();
         int res = p.incBy2(2);
-        assertEquals(1, res);
+        assertEquals(2, res);
     }
 }
